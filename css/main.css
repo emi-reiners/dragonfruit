@@ -1,1 +1,54 @@
 /* Place CSS styles here */
+
+.sprout-group img {
+    width: 60px;
+    display: flex;
+
+}
+
+.sprout-1 {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    transform: rotate(45deg);
+
+}
+.sprout-2 {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    
+}
+.sprout-3 {
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    transform: rotate(90deg);
+
+   
+}
+.sprout-4 {
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    
+}
+.sprout-5 {
+    position: absolute;
+    top: 90px;
+    left: 360px;
+
+}
+
+.totoro-wrapper {
+    border: 1px solid green;
+}
+.totoro-wrapper img {
+    transform: translate(300px, 50px) scale(-1);
+    transition: all 1s ease-out;
+
+}
+
+.totoro-wrapper:hover img {
+    transform: translate(300px, 50px) scale(1);
+}

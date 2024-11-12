@@ -1,125 +1,63 @@
 /* Place CSS styles here */
-.sprout-group {
-
-}
-
-
-.sprout-group img {
-    width: 60px;
-
-}
-
-.sprout-1 {
-    position: absolute;
-    top: 90px;
-    left: 0px;
-    transform: rotate(45deg);
-
-}
-.sprout-2 {
-    position: absolute;
-    top: 90px;
-    left: 80px;
-    transform: skew(20deg, 10deg
-);
+.intro-site {
+    background-image:url(../../../../Desktop/vecteezy_brightly-colorful-fireworks-on-twilight-background_.jpg)
     
-}
-.sprout-3 {
-    position: absolute;
-    top: 90px;
-    left: 160px;
-    transform: rotate(90deg);
+  }
 
-   
-}
-.sprout-4 {
-    position: absolute;
-    top: 90px;
-    left: 240px;
-    transform: skew(-20deg, 10deg)
-    
-}
-.sprout-5 {
-    position: absolute;
-    top: 90px;
-    left: 360px;
-
-}
-
-.totoro-wrapper {
-    border: 1px solid green;
-}
-.totoro-wrapper img {
-    transform: translate(300px, 50px) scale(-.5);
-    transition: all 1s ease-out;
-
-}
-
-.totoro-wrapper:hover img {
-    transform: translate(300px, 50px) scale(1);
-}
-@keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-200px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.animated-element {
-    animation: bounce 1s infinite;
-}
-
-.intro {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgb(183, 232, 160);
+.intro-site-cat1 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    height: 600px;
+    padding: 50px;
+}
+.intro-site-cat2 {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding: 50px;
+    transition: opacity 0.5s ease;
+    opacity: 0;
 }
 
+.welcome-button {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding: 40px 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: black;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    margin: -45px auto;
+    text-align: center;
+    transition: transform 0.3s ease;
 
-.fade-in {
-    animation: fadeOut 2s ease-in forwards;
 }
-@keyframes fadeOut {
+.welcome-button:hover {
+    background-color: aliceblue;
+    animation: bob 0.6s infinite alternate;
+}
+@keyframes bob {
     0% {
-        opacity: 1;
+        transform: translateY(0);
     }
     100% {
-        opacity: 0;
+        transform: translateY(-10px);
     }
 }
 
-@keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
-}
+h1{
+        font-family: "Emilys Candy", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(142, 59, 165);
+        font-size: 50px;
+        margin: auto;
+      }  
 
-.loading-spinner {
-    animation: rotate 1s infinite linear;
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-    justify-content: center;
-}
+      @keyframes fadeOut {
 
+      }

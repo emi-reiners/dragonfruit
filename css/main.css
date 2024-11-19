@@ -1,16 +1,21 @@
 /* Place CSS styles here */
-.intro-site {
-    background-image:url(../../../../Desktop/vecteezy_brightly-colorful-fireworks-on-twilight-background_.jpg)
-    
+.intro-page {
+    background-image: url(../img/vecteezy_brightly-colorful-fireworks-on-twilight-background_.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    height: 100%;
   }
 
-.intro-site-cat1 {
+.intro-page-cat1 {
     display: flex;
     justify-content: center;
     height: 600px;
     padding: 50px;
 }
-.intro-site-cat2 {
+.intro-page-cat2 {
     display: flex;
     justify-content: center;
     height: 600px;
@@ -58,6 +63,20 @@ h1{
         margin: auto;
       }  
 
-      @keyframes fadeOut {
+      @keyframes fade-out {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+      }
+
+      .paw-print1 {
+        position: absolute;
+        top: 100px;
 
       }
+      .fade-out {
+        animation: fade-out 2s ease forwards;
+    }

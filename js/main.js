@@ -1,5 +1,5 @@
 // JS scripts placed here
-const element = document.getElementById('enter-button');
+const element = document.getElementById('welcome-button');
 const intro = document.getElementById('intro');
 
 element.addEventListener('click', () => {
